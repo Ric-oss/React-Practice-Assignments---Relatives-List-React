@@ -13,7 +13,7 @@ class App extends Component {
 
         return(
             <div id="main">
-                <ol>{this.listitem}</ol>
+                <ol type="1" key="relative">{this.listitem}</ol>
                {/* Do not remove the main div */}
             </div>
         )
