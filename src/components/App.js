@@ -3,16 +3,16 @@ import '../styles/App.css';
 
 //const relative=[{name:"mama"},{name:"masi"},{name:"chacha"}];
 class App extends Component {
-    relative = [{ key: "relativeListItem1", name: "mama" }, { key: "relativeListItem2", name: "masi" }, { key: "relativeListItem1", name: "chacha" }];
-
+    
 
     render() {
+      const relative = [{ key: "relativeListItem1", name: "mama" }, { key: "relativeListItem2", name: "masi" }, { key: "relativeListItem1", name: "chacha" }];
 
         return (
             <div id="main">
-                <ol type="1" key={this.relative}>
+                <ol type="1" key="relative">
 
-                    {this.relative.map((value) => {
+                    {relative.map((value) => {
                         return (
                             <li key={value.key}>{value.name}</li>);
                     })
