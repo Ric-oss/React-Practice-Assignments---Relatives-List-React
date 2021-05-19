@@ -3,10 +3,10 @@ import '../styles/App.css';
 
 //const relative=[{name:"mama"},{name:"masi"},{name:"chacha"}];
 class App extends Component {
- relative=[{name:"mama"},{name:"masi"},{name:"chacha"}];
+ relative=[{id:1,name:"mama"},{id:2,name:"masi"},{id:3,name:"chacha"}];
 
-  listitem = this.relative.map((value,index)=>{
-      return <li key={index}>{value.name}</li>
+  listitem = this.relative.map((value)=>{
+      return <li key={value.id}>{value.name}</li>
   })
 
     render() {
