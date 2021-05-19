@@ -10,7 +10,7 @@ class App extends Component {
 
         return (
             <div id="main">
-                <ol type="1" key="relative">
+                <ol type="1" key={this.relative}>
 
                     {this.relative.map((value) => {
                         return (
