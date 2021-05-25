@@ -6,7 +6,7 @@ class App extends Component {
 
 
     render() {
-        const relative = [{ key: "relativeListItem1", name: "mama" },
+        const relativeList = [{ key: "relativeListItem1", name: "mama" },
         { key: "relativeListItem2", name: "masi" },
         { key: "relativeListItem3", name: "chacha" }];
 
